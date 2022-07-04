@@ -23,6 +23,10 @@ Developed a web-based application based on Redis publish-subscribe mechanism tog
 - **Event collaboration messaging -** Using RabbitMQ to analyze messages for expletive content
 - **Continuous delivery -** Achieved using GitHub Actions
 
+## Architecture Diagram
+
+![image](https://user-images.githubusercontent.com/29837264/177220721-5321f3ff-a6d6-4f0c-812a-9c08087cfbce.png)
+
 
 ## Running the dev environment:
 
