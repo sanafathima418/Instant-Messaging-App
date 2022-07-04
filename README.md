@@ -48,3 +48,12 @@ Terminal 3
 cd analyzer
 python3 analyzer.py
 ```
+
+## Redis Pub-Sub Mechanism
+
+The publish-subscribe pattern is a way of passing messages to an arbitrary number of senders. The senders of these messages (publishers) do not explicitly identify the targeted recipients. Instead, the messages are sent out on a channel on which any number of recipients (subscribers) can be waiting for them.
+
+**Keys and values:** Channel(usernames) are keys and messages are values. Additionally, the subscribed channel list against a user is also maintained.
+
+**Subscribe:** When a friend is added, the channel(friend name) is added to the list of user's subscribed list.
+**Publish:** When a user types a message and hits send, the message is immediately broadcasted on the channel which will be forwarded to the subscribed users(friends).
