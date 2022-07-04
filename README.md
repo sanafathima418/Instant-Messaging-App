@@ -1,6 +1,6 @@
 # Instant Messaging Application
 
-Developed a web-based application based on Redis publish-subscribe mechanism together with ReactJS, NodeJS and socket programming to enable instant messaging between users and deployed it using Kubernetes.
+Developed a web-based application based on Redis publish-subscribe mechanism together with ReactJS, NodeJS and Python Flask to enable instant messaging between users and deployed it using Kubernetes.
 
 ## Architecture Diagram
 
