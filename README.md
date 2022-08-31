@@ -2,6 +2,13 @@
 
 Developed a web-based application based on Redis publish-subscribe mechanism together with ReactJS, NodeJS and Python Flask to enable instant messaging between users and deployed it using Kubernetes.
 
+## Tech Stack
+- **Front end:** React, NodeJS
+- **Back end:** Python
+- **Databases:** Redis, PostgreSQL
+- **API:** REST
+- **Cloud:** GKE
+
 ## Architecture Diagram
 
 ![image](https://user-images.githubusercontent.com/29837264/177220721-5321f3ff-a6d6-4f0c-812a-9c08087cfbce.png)
